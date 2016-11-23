@@ -1,0 +1,43 @@
+.container {
+  width: 100%;
+  margin: 0 auto;
+}
+.leftSide {
+  float: left;
+  width: 67%;
+}
+.rightSide {
+  float: left;
+  width: 33%;
+}
+@media screen and (max-width: 575px) {
+  .container {
+    max-width: auto;
+  }
+}
+@media screen and (max-width: 767px) {
+  .container {
+    max-width: 540px;
+  }
+  .leftSide {
+    width: 100%;
+  }
+  .rightSide {
+    display: none;
+  }
+}
+@media screen and (max-width: 991px) {
+  .container {
+    max-width: 720px;
+  }
+}
+@media screen and (max-width: 1119px) {
+  .container {
+    max-width: 960px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+}
